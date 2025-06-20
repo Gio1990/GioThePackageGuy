@@ -25,3 +25,9 @@ window.addEventListener("scroll", () => {
     header.style.padding = "2rem";
   }
 });
+
+// Set different delays on scroll
+const animatedItems = document.querySelectorAll('[data-aos]');
+animatedItems.forEach((item, index) => {
+  item.setAttribute('data-aos-delay', index * 100);
+});

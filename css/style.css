@@ -45,4 +45,18 @@ footer {
   text-align: center;
   padding: 2rem;
   background: #eee;
+}/* Optional AOS Enhancements */
+[data-aos] {
+  transition-property: transform, opacity;
+  transition-timing-function: ease-out;
+}
+
+section[data-aos] {
+  will-change: transform, opacity;
+  scroll-margin-top: 80px; /* Adjust if you have fixed header */
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }

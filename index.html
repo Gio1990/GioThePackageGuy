@@ -10,7 +10,6 @@
   <title>GioThePackageGuy</title>
 
   <!-- External CSS -->
-  <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 
@@ -21,63 +20,63 @@
   <script src="js/main.js" defer></script>
 </head>
 <body>
-  <header>
+  <header data-aos="fade-down">
     <h1>Packaging That Works</h1>
     <p>Custom solutions. Global supply chain. Unmatched results.</p>
     <button class="cta-button" onclick="window.location.href='#contact'">Get a Free Consult</button>
   </header>
 
-  <section>
+  <section data-aos="fade-up">
     <h2>What I Do</h2>
     <div class="grid">
-      <div class="service">
+      <div class="service" data-aos="fade-up" data-aos-delay="100">
         <h3>Primary Packaging</h3>
         <p>Bottles, tubes, jars, and anything your product touches.</p>
       </div>
-      <div class="service">
+      <div class="service" data-aos="fade-up" data-aos-delay="200">
         <h3>Retail & D2C Displays</h3>
         <p>Stand out on-shelf or online with custom corrugate and folding carton displays.</p>
       </div>
-      <div class="service">
+      <div class="service" data-aos="fade-up" data-aos-delay="300">
         <h3>Secondary Packaging</h3>
         <p>Protective packaging, shipping boxes, and branded experiences.</p>
       </div>
-      <div class="service">
+      <div class="service" data-aos="fade-up" data-aos-delay="400">
         <h3>Supply Chain Optimization</h3>
         <p>Global and domestic sourcing solutions through the Stephen Gould network.</p>
       </div>
     </div>
   </section>
 
-  <section>
+  <section data-aos="fade-up">
     <h2>Why Work With Me?</h2>
     <div class="grid">
-      <div class="testimonial">
+      <div class="testimonial" data-aos="fade-right">
         <p>"Gio solved a major supply chain bottleneck for us within days — we haven’t looked back since."</p>
         <strong>- Director of Ops, Wellness Brand</strong>
       </div>
-      <div class="testimonial">
+      <div class="testimonial" data-aos="fade-left">
         <p>"The packaging elevated our entire launch — we sold out within the first two weeks."</p>
         <strong>- Founder, D2C Skincare</strong>
       </div>
     </div>
   </section>
 
-  <section>
+  <section data-aos="fade-up">
     <h2>Recent Wins</h2>
     <div class="grid">
-      <div class="case-study">
+      <div class="case-study" data-aos="zoom-in-up" data-aos-delay="100">
         <h3>Coola Suncare</h3>
         <p>Upgraded acrylic spa pump packaging for harsh retail environments.</p>
       </div>
-      <div class="case-study">
+      <div class="case-study" data-aos="zoom-in-up" data-aos-delay="200">
         <h3>Pop & Bottle</h3>
         <p>Developed a 4-shelf corrugate floor display for national retail rollout.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <h2>Let’s Talk</h2>
     <p>Have a packaging challenge or launch coming up? Drop me a line.</p>
     <form>
@@ -96,8 +95,8 @@
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1000, // animation duration in ms
-      once: true      // animate only once per scroll
+      duration: 1000,
+      once: true
     });
   </script>
 </body>
